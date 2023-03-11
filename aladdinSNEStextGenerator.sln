@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aladdinSNEStextGenerator", "aladdinSNEStextGenerator\aladdinSNEStextGenerator.csproj", "{38532A37-18EB-4C4F-BEEF-49932AC8B9CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38532A37-18EB-4C4F-BEEF-49932AC8B9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38532A37-18EB-4C4F-BEEF-49932AC8B9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38532A37-18EB-4C4F-BEEF-49932AC8B9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38532A37-18EB-4C4F-BEEF-49932AC8B9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5FBC03D-D5FE-4FEB-8DEE-E8F4BB05C017}
+	EndGlobalSection
+EndGlobal
