@@ -8,3 +8,6 @@ easy!<br/>
 ```
 > aladdinSNEStextGenerator Hello World
 ```
+### TODO
+* adding support for numbers and punctuations<br/>
+* adding support for the japanese characters
