@@ -12,6 +12,9 @@ namespace aladdinSNEStextGenerator
     {
         static void Main(string[] args)
         {
+            // saving the current console foreground color
+            ConsoleColor defaultColor = Console.ForegroundColor;
+
             Console.WriteLine("+===============================================================+");
             Console.WriteLine("| aladdinSNEStextGenerator (made by Ogan Özkul aka Ryuguu Chan) |");
             Console.WriteLine("+===============================================================+\n");
@@ -78,6 +81,7 @@ namespace aladdinSNEStextGenerator
                         {
                             Console.WriteLine("* {0}", validChars[i].ToString() == " " ? "[blank space]" : validChars[i].ToString());
                         }
+                        Console.ForegroundColor = defaultColor;
                         Environment.Exit(0);
                     }
                 }
@@ -119,6 +123,7 @@ namespace aladdinSNEStextGenerator
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Here's the syntax\n----\naladdinSNEStextGenerator [your text here]");
+                Console.ForegroundColor = defaultColor;
             }
         }
     }
