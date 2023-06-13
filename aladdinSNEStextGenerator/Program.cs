@@ -93,8 +93,11 @@ namespace aladdinSNEStextGenerator
                 {
                     for (int i = 0; i < r.Length; i++)
                     {
-                        int beginXpos = (i * 7);
-                        g.DrawImage(bitmap.Clone(char2rects[r[i]], System.Drawing.Imaging.PixelFormat.Format32bppArgb), beginXpos + i, 0);
+                        if (i < r.Length-1)
+                        { 
+                            int beginXpos = (i * 7);
+                            g.DrawImage(bitmap.Clone(char2rects[r[i]], System.Drawing.Imaging.PixelFormat.Format32bppArgb), beginXpos + i, 0);
+                        }
                     }
                 }
 
